@@ -75,11 +75,21 @@ main{
     font-weight: 700;
     font-size: 3.2rem;
     font-style: italic;
-    text-shadow: 0.2rem 1rem rgba(0, 0, 0, 0.6);
+    text-shadow: 0.2rem 0.5rem rgba(0, 0, 0, 0.6);
 }
 .main-temp .hi-low{
     color: #fff;
     font-size: 2.4rem;
     font-weight: 500;
-    text-shadow: 0 0.4rem rgba(0, 0, 0, 0.466);
+    text-shadow: 0 0.3rem rgba(0, 0, 0, 0.479);
+}
+@media (max-width:70rem) {
+    
+    .app-wrap{
+        grid-template-columns: 100%;
+    }
+
+    main{
+        margin-top: 3rem;
+    }
 }
